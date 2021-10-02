@@ -1,16 +1,23 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Header from '../components/header'
+import React from 'react'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
+        <h1>this is home page</h1>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>123</h1>
+      <Header />
+
+      {/* header */}
+      {/* nav */}
+      {/* result */}
+      {/* footer */}
+
     </div>
   )
 }

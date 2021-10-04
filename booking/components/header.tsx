@@ -6,12 +6,14 @@ function Header() {
     return (
         <header className="sticky top-0 z-50">
             {/* Left */}
-            <div className="relative flex item-center h-10 cursor-pointer my-auto">
+            <div className="relative flex-auto item-center h-10 cursor-pointer my-auto">
                 <Image
                     className="object-contain"
-                    layout="fill"
+                    layout="fixed"
                     objectFit="contain"
                     objectPosition="left"
+                    width={130}
+                    height={80}
                     src={logo}
                 />
             </div>

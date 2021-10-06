@@ -4,17 +4,17 @@ import logo from '../public/logo.png'
 
 function Header() {
     return (
-        <header className="sticky top-0 z-50">
+
+        <header className="sticky top-0 z-50 grid
+        grid-cols-3 bg-white shadow-md p-5 md:px-2">
             {/* Left */}
             <div className="relative flex-auto item-center h-10 cursor-pointer my-auto">
                 <Image
+                    src={logo}
                     className="object-contain"
-                    layout="fixed"
+                    layout="fill"
                     objectFit="contain"
                     objectPosition="left"
-                    width={130}
-                    height={80}
-                    src={logo}
                 />
             </div>
             {/* Middle */}

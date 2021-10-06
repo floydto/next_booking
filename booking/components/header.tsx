@@ -8,8 +8,8 @@ function Header() {
             <Image
                 className="object-contain"
                 src="https://i.stack.imgur.com/ZdC3w.png"
-                width={200}
-                height={100}
+                width={2000}
+                height={1000}
             />
         </header>
     )

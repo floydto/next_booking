@@ -1,12 +1,10 @@
-import React from 'react'
-import Image from 'next/image'
-import logo from '../public/logo.png'
+import React from 'react';
+import Image from 'next/image';
+import logo from '../public/logo.png';
 
 function Header() {
     return (
-
-        <header className="sticky top-0 z-50 grid
-        grid-cols-3 bg-white shadow-md p-5 md:px-2">
+        <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-2">
             {/* Left */}
             <div className="relative flex-auto item-center h-10 cursor-pointer my-auto">
                 <Image
@@ -17,10 +15,16 @@ function Header() {
                     objectPosition="left"
                 />
             </div>
+
             {/* Middle */}
-            <div></div>
+            <div>
+                <input type="text" placeholder="Start your Search" />
+            </div>
+
             {/* Right */}
-            <div></div>
+            <div>
+
+            </div>
         </header>
     )
 }

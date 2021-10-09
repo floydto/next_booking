@@ -1,11 +1,9 @@
-import React from 'react'
-
-function result() {
+function Result() {
     return (
         <div>
-
+            
         </div>
     )
 }
 
-export default result
+export default Result

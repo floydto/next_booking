@@ -1,10 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Header from '../components/header'
+import Header from '../components/Header'
 import React from 'react'
 import Banner from '../components/Banner'
-
-
 
 const Home: NextPage = () => {
   return (

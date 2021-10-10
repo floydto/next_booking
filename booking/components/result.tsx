@@ -1,6 +1,6 @@
 import React from 'react'
 
-function result() {
+function Result() {
     return (
         <div>
 
@@ -8,4 +8,4 @@ function result() {
     )
 }
 
-export default result
+export default Result

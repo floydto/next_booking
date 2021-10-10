@@ -2,13 +2,9 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/Header'
 import React from 'react'
-<<<<<<< HEAD
-import Banner from '../components/banner'
-
-
-=======
 import Banner from '../components/Banner'
->>>>>>> 00c205ac1d727a3696e5dbd5a9773b1ed50e86a2
+
+
 
 const Home: NextPage = () => {
   return (
@@ -19,10 +15,12 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       <Banner />
-<<<<<<< HEAD
-      {/* banner */}
-=======
->>>>>>> 00c205ac1d727a3696e5dbd5a9773b1ed50e86a2
+      <main className="mar-w-7xl mx-auto sm:px-16">
+        <section className="pt-6">
+          <h2 className="text-xl font-semibold pb-5">Room Nearby</h2>
+          {/* data from server side- API endpoints */}
+        </section>
+      </main>
 
 
       {/* nav */}
@@ -31,6 +29,13 @@ const Home: NextPage = () => {
 
     </div>
   )
+}
+
+export async function getStaticProps() {
+  const exploreData = await fetch("https://api//")
+    .then(
+      (res) => res.json()
+    );
 }
 
 export default Home

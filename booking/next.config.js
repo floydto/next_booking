@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: true,
-  images: {
-    domains: ['i.stack.imgur.com'],
-  },
+    reactStrictMode: true,
+    images: {
+        domains: ['i.stack.imgur.com', 'wallpaperaccess.com'],
+    },
 }

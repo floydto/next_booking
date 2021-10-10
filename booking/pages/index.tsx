@@ -1,10 +1,14 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Header from '../components/header'
+import Header from '../components/Header'
 import React from 'react'
+<<<<<<< HEAD
 import Banner from '../components/banner'
 
 
+=======
+import Banner from '../components/Banner'
+>>>>>>> 00c205ac1d727a3696e5dbd5a9773b1ed50e86a2
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +19,10 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       <Banner />
+<<<<<<< HEAD
       {/* banner */}
+=======
+>>>>>>> 00c205ac1d727a3696e5dbd5a9773b1ed50e86a2
 
 
       {/* nav */}
